@@ -1,7 +1,8 @@
 import requests
 import json
 
-ip = '192.168.1.105'
+# Enter IP address of Fronius on local
+ip = '192.168.1.104'
 
 url = "http://" + ip + "/solar_api/v1/GetPowerFlowRealtimeData.fcgi"
 
